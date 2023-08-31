@@ -5,7 +5,8 @@
     <title>AppDeGatos</title>
   </head>
   <body>
-    <h2>AppDeGatos</h2>
+    <header><h2>AppDeGatos</h2></header>
+    <nav><a href="principal.html" target="_blank">Página Principal</a></nav>
     <main>
       <h3>Imágenes de gatos</h3>
       <!--TODO: Agregar enlace a imágenes de gatos-->
@@ -31,7 +32,10 @@
           <li>Truenos</li>
           <li>Otros gatos</li>
         </ol>
-        <img src="imagenes/gatos.png" alt="Muchos gatos">
+        <img src="imagenes/gatos.png" alt="Muchos gatos" usemap="#image-map">
+        <map name="image-map">
+          <area target="_blank" alt="" title="" href="https://victoradvincula.info/" coords="333,58,309,69,296,76,277,70,264,75,260,89,263,104,266,115,272,129,277,141,281,151,289,159,297,171,310,176,324,181,337,183,349,184,359,184,367,181,377,178,386,169,390,161,397,153,398,141,398,131,403,119,403,107,401,95,399,82,405,72,413,65,415,55,407,50,391,60,377,66,366,64,354,62" shape="poly">
+        </map>
       </div>
       <form action="/enviar-respuesta">
         <!--Botones de radio-->
